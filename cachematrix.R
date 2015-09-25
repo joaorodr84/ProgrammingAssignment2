@@ -82,6 +82,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## In other words, it calculates the inverse matrix and caches it.
 
 cacheSolve <- function(x, ...) {
+<<<<<<< HEAD
     ## Gets the inverse matrix from the cache
     m <- x$getinv()
     ## Checks whether the inverse matrix is defined
@@ -103,3 +104,9 @@ cacheSolve <- function(x, ...) {
     ## Returns the inverse matrix of 'x'
     m
 }
+=======
+        ## Return a matrix that is the inverse of 'x'
+}
+
+# test for 1st commit
+>>>>>>> 41ccd8c1fc7c3caca3374fefa1228865268206f9
